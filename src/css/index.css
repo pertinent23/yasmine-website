@@ -1,0 +1,140 @@
+@font-face {
+    font-family: plento;
+    src: url( "./../fonts/PLENTO.ttf" );
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url( "./../fonts/Ubuntu-Light.ttf" );
+}
+
+*{
+    font-family: ubuntu;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-page{
+    max-width: 1400px;
+}
+
+.menu-icon img{
+    max-width: 40px;
+    max-height: 50px;
+}
+
+.menu-title{
+    font-family: plento;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.15em;
+}
+
+.part-img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.part-data-item1{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: plento;
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 0.16em;
+}
+
+.part-data-item2{
+    color: #000000;
+    font-size: 1.8em;
+    font-size: 600;
+}
+
+.btn-outline{
+    border-color: #000000;
+    border-width: 1.5px;
+    color: #000000;
+    font-size: 1.35em;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+}
+
+.btn-outline:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.bar-content{
+    height: 1px;
+    background-color: #CCCCCC;
+}
+
+.user-item{
+    border-radius: 8px;
+    border: 1px solid #EEEEEE;
+    margin-top: 40px;
+    max-width: 500px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.user-item:hover{
+    transform: scale( 1.02 );
+}
+
+.content-user-img{
+    top: -50px;
+    left: 0px;
+}
+
+.user-img-icon{
+    width: 65px;
+}
+
+.writte-me,
+.writte-me:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+.writte-me i{
+    font-size: 20px;
+}
+
+.part-data-item{
+    font-size: 1.2em;
+}
+
+.part-data-item span{
+    font-weight: 600;
+}
+
+.part3{
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+
+.part3 img{
+    width: 25px;
+}
+
+@media screen and ( min-width: 768px ) {
+    .menu-title{
+        font-size: 1.3em;
+    }
+
+    .part-data-item1{
+        font-size: 2.4em;
+    }
+
+    .part-data-item2{
+        font-size: 2.5em;
+    }
+}
